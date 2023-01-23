@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head class="main-header">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título do WebSite</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <h1 class="body_h1">Título do corpo da página 1.</h1>
+        <h2 class="body_h2">Título do corpo da página 2.</h2>
+        <h3 class="body_h3">Título do corpo da página 3.</h3>
+        <h4 class="body_h4">Título do corpo da página 4.</h4>
+        <h5 class="body_h5">Título do corpo da página 5.</h5>
+        <h6 class="body_h6">Título do corpo da página 6.</h6>
+        <p><i>Lorem ipsum dolor sit </i><strong>met</strong><i> adipisicing elit. Cupiditate, quisquam.</i></p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vero voluptatum impedit vel et. Eligendi
+            minus,
+            ab aliquam a vel vero dolorum aut delectus esse accusantium vitae perspiciatis ipsum tenetur.
+        </p>
+        <br>
+        <hr>
+        <br>
+        <a href="https://github.com/paulotakeda1986" target="__blank">github</a>
+        <br>
+        <hr>
+        <br>
+        <table>
+            <thead>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Idade</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Paulo Roberto Schmitz Takeda</td>
+                    <td>paulo.takeda@gmail.com</td>
+                    <td>36</td>
+                </tr>
+                <tr>
+                    <td>Salete Schmitz</td>
+                    <td>stakeda_adm@gmail.com</td>
+                    <td>55</td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <hr />
+        <br />
+        <form action="form.php" method="POST">
+            <div>
+                <label>Nome: </label>
+                <input type="text" placeholder="Entre como o seu primeiro nome" />
+            </div>
+            <div>
+                <label>Email: </label>
+                <input type="email" placeholder="Insira seu email" />
+            </div>
+            <div>
+                <label>Idade: </label>
+                <input type="number" placeholder="Informe sua idade" />
+            </div>
+            <div>
+                <label>Gênero</label>
+                <select name="genero" id="1">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="saopaulino">Sãopaulino</option>
+                </select>
+            </div>
+            <div>
+                <label>Data de Nascimento:</label>
+                <input type="date" placeholder="Selecione ou digite sua data de nascimento" />
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" placeholder="Digite sua senha" />
+            </div>
+            <div>
+                <label>Mensagem</label>
+                <textarea name="mensagem" id="1"></textarea>
+            </div>
+            <!-- O type "submit" sempre envia tudo o que tem nos inputs do formulario para o link da tag inicial do formulário, no elemento 'action' -->
+            <input type="submit" />
+        </form>
+
+        <!-- Imagens -->
+        <img src="./img/img_01_l.jpg" alt="Imagem não carregada." width="1000">
+        <br />
+        <hr />
+        <br />
+        <!-- blockquote - citações -->
+        <blockquote cite="teste">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis iure facere accusantium
+            dolore sunt mollitia, ut magni aperiam maiores nisi?</blockquote>
+
+        <!-- abbr abreviações -->
+        <p>
+            Eu amo a <abbr title="World Wide Web"> WWW</abbr>
+        </p>
+    </div>
+</body>
+
+</html>
